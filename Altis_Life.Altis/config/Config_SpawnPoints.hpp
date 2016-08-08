@@ -163,7 +163,7 @@ class CfgSpawnPoints {
                 displayName = "Balavu";
                 spawnMarker = "civ_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                licenses[] = { { "", true } };
+                licenses[] = { { "rebel", false } };
                 level[] = { "", "", -1 };
             };
 
@@ -171,7 +171,7 @@ class CfgSpawnPoints {
                 displayName = "Tuvanaka";
                 spawnMarker = "civ_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                licenses[] = { { "", true } };
+                licenses[] = { { "rebel", false } };
                 level[] = { "", "", -1 };
             };
 
@@ -179,7 +179,7 @@ class CfgSpawnPoints {
                 displayName = "Lijnhaven";
                 spawnMarker = "civ_spawn_4";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                licenses[] = { { "", true } };
+                licenses[] = { { "rebel", false } };
                 level[] = { "", "", -1 };
             };
 
