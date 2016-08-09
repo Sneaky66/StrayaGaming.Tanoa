@@ -170,6 +170,7 @@ class Life_Client_Core {
         class clearVehicleAmmo {};
         class dropItems {};
         class escInterupt {};
+        class fadesound {};
         class fetchCfgDetails {};
         class fetchDeadGear {};
         class fetchVehInfo {};
