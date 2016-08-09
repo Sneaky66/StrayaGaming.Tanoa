@@ -76,6 +76,20 @@ switch (_code) do {
             _handled = true;
         };
     };
+    
+     //end = Faded Sound
+     case 207: // end = Earplugs
+    {
+        if (soundVolume <= 0.76) then // If below 76%
+        {
+            0.75 fadeSound 1;
+            titleText ["You've taken out your ear plugs.","PLAIN"];
+        } else {
+            0.75 fadeSound 0.10; // 10% sound level
+            titleText ["You've inserted your ear plugs.","PLAIN"];
+        };
+        _handled = true;
+    };
 
     //Map Key
     case _mapKey: {
